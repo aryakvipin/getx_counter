@@ -15,7 +15,7 @@ class CountController extends GetxController {
 
   void increment() {
     obxCount.value++;
-    if (obxCount.value >= 1  ) {
+    if (obxCount.value >= 1 ) {
       Get.snackbar(
         'Incremented',
         'Count incremented to ${obxCount.value.toString()}',
